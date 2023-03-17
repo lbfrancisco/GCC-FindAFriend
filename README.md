@@ -22,9 +22,9 @@ A FindAFriend acredita que todo bichinho merece uma vida confortável e segura. 
 
 ## Quais as tecnologias utilizamos?
 
-● HTML;
-● CSS;
-● Responsividade;
-● Semântica;
-● JavaScript;
-● Consumo de API.
+- HTML;
+- CSS;
+- Responsividade;
+- Semântica;
+- JavaScript;
+- Consumo de API.
