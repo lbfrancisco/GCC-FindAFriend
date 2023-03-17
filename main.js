@@ -3,10 +3,12 @@ const hamburgerIcon = menuButton.querySelector(".hamburger");
 const closeIcon = menuButton.querySelector(".close");
 const menu = document.querySelector(".menu");
 
-document.addEventListener("resize", () => {
+window.addEventListener("resize", () => {
   if (window.innerWidth >= 768) {
     if (menu.classList.contains("show")) {
       menu.classList.remove("show");
+      hamburgerIcon.classList.remove("hide");
+      closeIcon.classList.add("hide");
     }
   }
 });
